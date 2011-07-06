@@ -19,3 +19,6 @@ set nowrap              " Do NOT wrap lines.
 syntax on               " Enable syntax highlighting
 colorscheme vibrantink  " Set the color scheme to vibrantink. This helps molokai work correctly for some strange reason. Hacky? Yes, but works.
 colorscheme molokai     " Set the color scheme to molokai.
+
+" Highlight JSON files as Javascript
+autocmd BufNewFile,BufRead *.json set ft=javascript
