@@ -1,15 +1,21 @@
-set number
-set autoindent
+set number              " Turn on line numbers
+set autoindent          " Enable auto-indent
 set smartindent
-set cmdheight=2
-set autoread
-set showmatch
-set ruler 
-set mouse=a
-set sw=2
-set ts=2
-set expandtab
-set nolist
-syntax on
-colorscheme vibrantink
-colorscheme molokai
+set cmdheight=2         " Use 2 lines for the command bar
+set autoread            " Detect external file changes
+set showmatch           " Highlight matching braces
+set ruler               " Always turn on the ruler
+set mouse=a             " Enable Mouse mode
+set shiftwidth=2        " Set Shiftwidth
+set tabstop=2           " Set tabstop
+set expandtab           " Use spaces in place of tabs
+set nolist              " Hide invisible characters
+set hlsearch            " Highlight search terms
+set encoding=utf8       " Force utf8 encoding
+set nowb                " 
+set noswapfile          " Everything is already in a git repo, so no need for swap files.
+set smarttab            " 
+set nowrap              " Do NOT wrap lines.
+syntax on               " Enable syntax highlighting
+colorscheme vibrantink  " Set the color scheme to vibrantink. This helps molokai work correctly for some strange reason. Hacky? Yes, but works.
+colorscheme molokai     " Set the color scheme to molokai.
