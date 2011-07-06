@@ -1,0 +1,15 @@
+set number
+set autoindent
+set smartindent
+set cmdheight=2
+set autoread
+set showmatch
+set ruler 
+set mouse=a
+set sw=2
+set ts=2
+set expandtab
+set nolist
+syntax on
+colorscheme vibrantink
+colorscheme molokai
