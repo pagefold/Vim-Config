@@ -12,6 +12,8 @@ set expandtab           " Use spaces in place of tabs
 set nolist              " Hide invisible characters
 set hlsearch            " Highlight search terms
 set encoding=utf8       " Force utf8 encoding
+set nobackup            " No Vim backups since we use git
+set ffs=unix,dos,mac    " Set default file type (line-endings) order
 set nowb                " 
 set noswapfile          " Everything is already in a git repo, so no need for swap files.
 set smarttab            " 
