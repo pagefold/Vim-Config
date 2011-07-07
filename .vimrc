@@ -24,3 +24,4 @@ colorscheme molokai     " Set the color scheme to molokai.
 
 " Highlight JSON files as Javascript
 autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.erb  set ft=html
