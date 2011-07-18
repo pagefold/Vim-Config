@@ -7,7 +7,7 @@
   " by Hamish Stuart Macpherson
   "
 
-  set background=dark
+  " set background=dark
   if version > 580
       " no guarantees for version 5.8 and below, but this makes it stop
       " complaining
@@ -204,11 +204,11 @@ else
        highlight WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
        highlight WildMenu        ctermfg=81  ctermbg=16
 
-       highlight Normal          ctermfg=252 ctermbg=233
+       highlight Normal          ctermfg=252 ctermbg=none
        highlight Comment         ctermfg=59
        highlight CursorLine                  ctermbg=234   cterm=none
        highlight CursorColumn                ctermbg=234
        highlight LineNr          ctermfg=250 ctermbg=234
-       highlight NonText         ctermfg=250 ctermbg=234
+       highlight NonText         ctermfg=250 ctermbg=none
     end
 end
