@@ -37,7 +37,7 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
 
-set background=dark
+" set background=dark
 
 hi clear
 
@@ -288,7 +288,7 @@ endfun
 " }}}
 
 call s:X("Normal","e8e8d3","151515","","White","")
-set background=dark
+" set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
     let s:termBlack = "Black"
@@ -463,7 +463,7 @@ if !s:low_color
   hi NonText ctermbg=233
   hi LineNr ctermbg=233
   hi DiffText ctermfg=81
-  hi Normal ctermbg=233
+  hi Normal ctermbg=NONE
   hi DbgBreakPt ctermbg=53
 endif
 
